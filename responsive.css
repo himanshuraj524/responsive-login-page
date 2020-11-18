@@ -1,0 +1,33 @@
+/*Responsive design for the website.*/
+html{
+    background: url("/Transparent_login_page/bgresponsive.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*setting the padding of the box*/
+.box{
+    padding: 11px 0px;
+}
+
+/*Styling the input box*/
+.box input{
+    color: black;
+    font-size: 18px;
+    padding: 10px 0px;
+    width: 16em;
+    background:transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid peachpuff; 
+}
+
+
+/*styling the input box*/
+.heading{
+    margin-bottom: 7px;
+    color: #fd5d01e6;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto Slab';
+}

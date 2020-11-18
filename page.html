@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is used for importing the icon from the fontawasome website -->
+    <script src="https://kit.fontawesome.com/e976897305.js" crossorigin="anonymous"></script>
+    <!-- This is a style sheet -->
+    <link rel="stylesheet" href="pagestyle.css">
+    <!-- This is a style sheet which will fired according to the media query -->
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="responsive.css">
+    <title>Transparent login page</title>
+</head>
+
+<body>
+    <!-- Inside this container our login form will present -->
+    <div class="container">
+        <!-- This is a heading for login form -->
+        <h1 class="heading">Login</h1>
+        <!--These boxes are used for storing the icon and input inside them.-->
+        <div class="box">
+            <!--icon added-->
+            <i class="fa fa-envelope"></i>
+            <!--input box for getting the email-->
+            <input type="email" name="email" id="email" placeholder="Enter your Email.">
+        </div>
+        <div class="box">
+            <!--icon added-->
+            <i class="fa fa-unlock-alt"></i>
+            <!--input box for getting the password-->
+            <input type="password" name="password" id="password" placeholder="Enter your Password.">
+        </div>
+        <!--Button for login-->
+        <button class="btn" type="submit">Login</button>
+    </div>
+</body>
+
+</html>
