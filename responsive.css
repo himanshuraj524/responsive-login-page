@@ -1,6 +1,6 @@
 /*Responsive design for the website.*/
 html{
-    background: url("/Transparent_login_page/bgresponsive.jpg");
+    background: url("bgresponsive.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
