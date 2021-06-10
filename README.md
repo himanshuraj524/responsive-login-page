@@ -1,1 +1,1 @@
-[Open](https://himanshuraj524.github.io/responsive-login-page/)
+[Open](https://himanshuraj524.github.io/responsive-login-page/page.html)
